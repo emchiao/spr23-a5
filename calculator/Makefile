@@ -20,6 +20,6 @@ multiplication.o: multiplication.c operations.h
 division.o: division.c operations.h
 	cc -c division.c
 
-clean: 
+.PHONY clean: 
 	rm calculator *.o *~
 
