@@ -1,5 +1,3 @@
-#!/usr/bin/make -f
-
 all: calculator
 
 operations = addition.o subtraction.o multiplication.o division.o
