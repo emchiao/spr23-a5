@@ -21,5 +21,5 @@ division.o: division.c operations.h
 	cc -c division.c
 
 clean: 
-	rm calculator *.o*~
+	rm calculator *.o *~
 
