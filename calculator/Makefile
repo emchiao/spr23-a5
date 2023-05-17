@@ -3,7 +3,7 @@ all: calculator
 operations = addition.o subtraction.o multiplication.o division.o
 
 calculator: main.o $(operations)
-	cc -o calculator operations.h
+	cc -o calculator $^
 
 main.o: main.c operations.h
 	cc -c  main.c
